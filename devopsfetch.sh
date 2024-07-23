@@ -15,14 +15,14 @@ Options:
   -h, --help              Display this help message
 
 Examples:
-  devopsfetch -p                 # List all active ports
-  devopsfetch -p 80              # Show details for port 80
-  devopsfetch -d                 # List all Docker images and containers
-  devopsfetch -d mycontainer     # Show details for 'mycontainer'
-  devopsfetch -n                 # List all Nginx domains
-  devopsfetch -n example.com     # Show Nginx config for example.com
-  devopsfetch -u                 # List all users and last login times
-  devopsfetch -u johndoe         # Show details for user 'johndoe'
+  devopsfetch -p                  # List all active ports
+  devopsfetch -p 80               # Show details for port 80
+  devopsfetch -d                  # List all Docker images and containers
+  devopsfetch -d mycontainer      # Show details for 'mycontainer'
+  devopsfetch -n                  # List all Nginx domains
+  devopsfetch -n example.com      # Show Nginx config for example.com
+  devopsfetch -u                  # List all users and last login times
+  devopsfetch -u ChukwumaAdekunle # Show details for user 'ChukwumaAdekunle'
   devopsfetch -t '2023-01-01 00:00:00' '2023-01-31 23:59:59'  # Show activities in January 2023
 EOF
 }
