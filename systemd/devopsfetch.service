@@ -3,11 +3,8 @@ Description=DevOpsFetch Service
 After=network.target
 
 [Service]
-ExecStart=/usr/local/bin/devopsfetch
+ExecStart=/usr/local/bin/devopsfetch -h
 Restart=always
 StandardOutput=syslog
 StandardError=syslog
 SyslogIdentifier=devopsfetch
-
-[Install]
-WantedBy=multi-user.target
